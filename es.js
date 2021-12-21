@@ -4,15 +4,15 @@ exports.vnCmd = (v) => {
 };
 
 // -- enviar mensaje 
-exports.wait = `*⌛ _Cargando..._ ▬▬▬▭*`;
+exports.wait = `*⌛🪐 _Cargando..._ ▬▬▬▭*`;
 exports.bye = `Adios...`;
-exports.done = `✅ Hecho`;
+exports.done = `✅➽ Hecho`;
 exports.next = (value) => {
   return `Haga click en siguiente para *${value}* `;
 };
 exports.packon = 'Nombre del paquete ya registrado';
 exports.packoff = 'El nombre del paquete de medios no está registrado en la base de datos.';
-exports.liston = '✅ Lista de medios almacenados en la base de datos';
+exports.liston = '✅💬 Lista de medios almacenados en la base de datos';
 exports.getlist = '✳️ Use el comando getimg/getvid/getav/getstik para enviar un paquete de un medio\n*📌Ejemplo* : /getimg auron';
 exports.nolink = (value) => {
   return '✳️ Repita agregando un enlace ' + value;
@@ -22,7 +22,7 @@ exports.lvl = `Nivel`;
 exports.nme = `Nombre`;
 exports.hi = `Hola`;
 exports.gp = `Grupo`;
-exports.restart = `✅ Reiniciando Bot`;
+exports.restart = `✅🥺 Reiniciando Bot`;
 exports.pinsp = `Velocidad`;
 exports.pinse = `Segundos`;
 exports.num = `Numero`;
@@ -34,7 +34,7 @@ exports.bugr = `Gracias\nSu reporte ha sido almacenada en la base de datos. `;
 exports.linkgp = `Link del Grupo `;
 exports.linkrevo = `Enlace del grupo anulado`;
 exports.newlink = `Nuevo enlace`;
-exports.gpbt = `🛡️ Configuración de grupo\nAbrir y cerrar el grupo`;
+exports.gpbt = `🛡️🦅 Configuración de grupo\nAbrir y cerrar el grupo`;
 exports.gpbtt = `A continuación elija uno`;
 exports.gpopenb = `ABRIR`;
 exports.gpcloseb = `CERRAR`;
@@ -51,9 +51,9 @@ exports.vno = `Si no estas de acuerdo`;
 exports.vrvt = `Ver Votaciones`;
 exports.rtvt = `RESULTADOS DE VOTACION`;
 exports.dlte = `Eliminar`;
-exports.setpmulti = `✅ Se cambio el prefijo a : *multiprefijo*`;
-exports.setpnopre = `✅ Se cambió de prefijo a : *nopref*`;
-exports.setponepre = `✅ Se cambio el prefijo a :`;
+exports.setpmulti = `✅🪐 Se cambio el prefijo a : *multiprefijo*`;
+exports.setpnopre = `✅🪐 Se cambió de prefijo a : *nopref*`;
+exports.setponepre = `✅🪐 Se cambio el prefijo a :`;
 exports.setpall = `Prefijos Disponibles`;
 exports.setpnp = `Sin prefijo`;
 exports.setpop = `Un prefijo`;
@@ -72,15 +72,15 @@ exports.pptuser = `Tú`;
 exports.papel = `papel`;
 exports.tijera = `tijera`;
 exports.piedra = `piedra`;
-exports.foll = `Sígueme en Instagram \nhttps://www.instagram.com/fg98._`;
+exports.foll = `Sígueme en Instagram \nhttps://www.._`;
 exports.plays = `Ingresa el título de una canción`;
-exports.playm = `El archivo es demasiado grande, la reproducción de música se canceló, el tamaño máximo del archivo es de`;
+exports.playm = `El archivo es demasiado grande, animal la reproducción de música se canceló, el tamaño máximo del archivo es de`;
 exports.listgp = `LISTA de Grupos`;
 exports.calidad = `Calidad`;
 exports.tamaño = `Tamaño`;
 exports.pfo = `Elija un formato\n\nSi tiene problemas  con el comando use`;
-exports.pafo = `Seleccione la música que desea descargar`;
-exports.pvfo = `Seleccione el video que desea descargar`;
+exports.pafo = `Seleccione la música que desea descargar📀`;
+exports.pvfo = `Seleccione el video que desea descargar🦈`;
 exports.titlp = `Título`;
 exports.timp = `Duración`;
 exports.viep = `Vistas`;
@@ -92,25 +92,25 @@ exports.donate = `≡ *DONACION*
 puedes donar si quieres ayudar a mantener el bot activo
 
 ▢ *PayPal*
-• *Link :* https://tinyurl.com/PayPal-fg
+• *Link :* https://tinyurl.com
 
 _Al donar consigues_  *Premium* `;
 exports.cretb = 'Crea tu propio bot usando Termux';
 
 // -- Decir tiempo
-exports.night = 'Buenas noches'
-exports.evening = 'Buenas tardes'
-exports.day = 'Buen día'
-exports.morning = 'Buenos dias'
+exports.night = 'Buenas noches🌇'
+exports.evening = 'Buenas tardes🌄'
+exports.day = 'Buen día☀️'
+exports.morning = 'Buenos dias🌅'
 
 
 // -- mensaje solo 
-exports.admin = '✳️ Este comando es solo para *Admins* del grupo';
-exports.group = '✳️ ¡Este comando solo se puede usar en grupos!';
+exports.admin = '✳️ Este comando es solo para *Admins dioses* del grupo';
+exports.group = '✳️ ¡Este comando solo se puede usar en grupos wey!';
 exports.premium = '✳️ Este comando es solo para miembros *Premium*';
 exports.premdl = '✳️ Lo sentimos, no es un usuario premium, descárguelo usted mismo usando el enlace\n*LINK* : ';
 exports.botadmin = '✳️ ¡Para usar este comando debo ser *Administrador!*';
-exports.owner = '✳️ Esta función es solo para *Para el dueño del Bot*';
+exports.owner = '✳️ Esta función es solo para *Para el poderoso dueño del Bot*';
 exports.isprem = '✳️ El usuario es el usuario premium anterior.';
 exports.noprem = '✳️ El usuario aún no es un usuario premium.';
 exports.ban = '✳️ El estado de usuario ha sido prohibido antes';
@@ -157,14 +157,14 @@ exports.nobahasa = `Idioma no disponible
 
 📌 Ejemplo : */language en*`;
 
-exports.online = '✅ Bot activo  en este grupo'
-exports.offline = '✅ Se desactivo el Bot en este grupo'
+exports.online = '✅🎄🌹 el bot se a activado en este grupo Wii🤸'
+exports.offline = '✅🦅 Se desactivo el Bot en este grupo'
 
 // -- grupo
 exports.onwa = '✳️ El usuario ya está en el grupo';
 exports.sendlink = '✅ Envía una invitación a';
-exports.open = '✅ Grupo abierto ahora *todos los participantes* pueden escribir';
-exports.close = '✅ Grupo cerrado ahora *solo los admin* pueden escribir';
+exports.open = '✅💬 Grupo abierto ahora *todos los participantes* pueden seguir jodiendo';
+exports.close = '✅🔥 Grupo cerrado ahora *solo los dioses admin* pueden escribir';
 exports.name = (value) => {
   return `✅ Se cambió el nombre a \n\n*${value}*`;
 };
@@ -172,17 +172,17 @@ exports.desk = (value) => {
   return `✅ Cambió la descripción del grupo a \n\n${value}`;
 };
 exports.promote = (value) => {
-  return `✅  *${value}* Promovido como administrador`;
+  return `✅  *${value}* Promovido como dios administrador`;
 };
 exports.demote = (value) => {
-  return '✅ Admin degradado' + value;
+  return '✅ Admin degradado que vergüenza' + value;
 };
 
 exports.kick = (value) => {
-  return '✅ Orden recibida, emitida '+value;
+  return '➽ Orden recibida, emitida se elimino un pendejo '+value;
 };
 exports.On = (value) => {
- return `✅ Se activo *${value}* en este grupo`;
+ return `✓ Se activo *${value}* en este grupo`;
 };
 exports.Off = (value) => {
   return `✅ *${value}* desactivado para este grupo`;
@@ -200,15 +200,16 @@ exports.setwel = (value) => {
   return `✳️ Ingrese el mensaje de *bienvenida*
 
 *📌 Ejemplo:*
-/setwelcome Bienvenido @user  a @group
+/setwelcome 🎄Bienvenido🎄 @user  a @group
 
 Tag : @user 
-Nombre : @name
-Bio : @bio
-Fecha : @date
-Nombre de Grupo : @group
-Descripción : @desc
-
+➽ Nombre : @name
+➽ Bio : @bio
+➽ Fecha : @date
+➽ Nombre de Grupo : @group
+➽ Descripción : @desc
+➽ como podemos llamarte?:
+➽ ft cara:
 *Ejemplos para cada función*\n` + value;
 };
 
@@ -216,7 +217,7 @@ exports.setbye = (value) => {
   return `✳️ Ingrese el mensaje de *Despedida*
   
 *📌 Ejemplo:*
-/setbye Adios  @user
+/setbye 👋asta la próxima sabes que aquí te esperare👋  @user
 
 *Ejemplos para cada función*\n` + value;
 };
@@ -261,11 +262,11 @@ Responde este mensaje para responder
 La pista de respuesta aparece en los últimos 10 segundos.`;
 };
 
-exports.timeout = '⏳ Se acabó el tiempo, la respuesta es ';
-exports.salah = '❎ *Incorrecto* !\nIntente otra vez';
-exports.hampir = '*✳️ Casi lo logras* \nSigue intentando!';
+exports.timeout = '⏳😩 Se acabó el tiempo, la respuesta es ';
+exports.salah = '❎🦅 *Incorrecto* !\nIntente otra vez';
+exports.hampir = '*✳️🤸 Casi lo logras* \nSigue intentando!';
 exports.benar = (value, value2) => {
-  return `✅ *Respuesta correcta!*\n\n‣ Ganaste : *${value2}* Coins`;
+  return `✅🔥 *Respuesta correcta!*\n\n‣ Ganaste : *${value2}* Coins`;
 };
 
 // afk
