@@ -1,4 +1,4 @@
-exports.🎄DEMON-BOT🔥🛐 MENU🎄 = (v) => {
+exports.🎄DEMON BOT-MENU🎄 = (v) => {
   return `┌─⊷ *🥀MAIN🥀* 
 ▢➽ ${v}menuvc
 ▢➽ ${v}bot <text>
