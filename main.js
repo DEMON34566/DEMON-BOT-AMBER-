@@ -68,7 +68,7 @@ async function starts() {
 	    let descrip = mdata.desc
 	    let welc = await getCustomWelcome(mdata.id)
 	    capt = welc.replace('@user', tag).replace('@name', username).replace('@bio', about).replace('@date', tanggal).replace('@desc', descrip).replace('@group', mdata.subject);
-	      Fg.send2ButtonLoc(mdata.id, buff, capt, 'Sígueme en Instagram\nhttps://www.instagram.com/fg98._', '⦙☰ MENU', '/menu', '⏍ INFO GP', '/infogp', false, {
+	      Fg.send2ButtonLoc(mdata.id, buff, capt, 'Sígueme 98._', '⦙☰ MENU', '/menu', '⏍ INFO GP', '/infogp', false, {
 	      contextInfo: {  
             mentionedJid: Fg.parseMention(capt)
 	      } 
@@ -82,7 +82,7 @@ async function starts() {
         let buff = await getBuffer(ppimg);
         let bye = await getCustomBye(mdata.id);
         capt = bye.replace('@user', tag).replace('@name', username).replace('@bio', about).replace('@date', tanggal).replace('@group', mdata.subject);
-        Fg.sendButtonLoc(mdata.id, buff, capt, 'Sígueme en Instagram\nhttps://www.instagram.com/fg98._', '👋🏻', 'unde', false, {
+        Fg.sendButtonLoc(mdata.id, buff, capt, 'Síg8._', '👋🏻', 'unde', false, {
 	      contextInfo: { 
             mentionedJid: Fg.parseMention(capt)
 	      } 
@@ -113,10 +113,10 @@ Fg.on('group-participants-update', async (anu) => {
     
 *NUEVO ADMIN*
 ┌──────────────
-▢ *Nombre* : ${username}
-▢ *Numero* : @${num.split('@')[0]}
-▢ *Info* : ${about} 
-▢ *Hora* : ${time}
+▢➽ *Nombre* : ${username}
+▢➽ *Numero* : @${num.split('@')[0]}
+▢➽ *Info* : ${about} 
+▢➽ *Hora* : ${time}
 └──────────────`;
     return Fg.sendMessage(metdata.id, img, MessageType.image, {caption: capt, contextInfo: {'mentionedJid': [num]}});
                
@@ -129,10 +129,10 @@ Fg.on('group-participants-update', async (anu) => {
     
 *ADMIN DEGRADADO*
 ┌──────────────
-▢ *Nombre* : ${username}
-▢ *Numero* : @${num.split('@')[0]}
-▢ *Info* : ${about} 
-▢ *Hora* : ${time}
+▢➽ *Nombre* : ${username}
+▢➽ *Numero* : @${num.split('@')[0]}
+▢➽ *Info* : ${about} 
+▢➽ *Hora* : ${time}
 └──────────────`;
     Fg.sendMessage(metdata.id, img, MessageType.image, {caption: capt, contextInfo: {'mentionedJid': [num]}});
   }
@@ -148,8 +148,8 @@ Fg.on('message-delete', async (m) => {
     await Fg.reply(m.key.remoteJid, `
 ━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━
 
-*▢ Nombre :* @${m.participant.split`@`[0]} 
-*▢ Hora :* ${time}
+*▢➽ Nombre :* @${m.participant.split`@`[0]} 
+*▢➽ Hora :* ${time}
 
 ━━━━⬣  𝘼𝙉𝙏𝙄 𝘿𝙀𝙇𝙀𝙏𝙀  ⬣━━━━
 
